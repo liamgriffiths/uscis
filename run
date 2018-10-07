@@ -1,0 +1,9 @@
+#!/bin/bash
+
+./uscis \
+  -caseNumber $CASE_NUMBER \
+  -accountSID $TWILIO_ACCOUNT_SID \
+  -authToken $TWILIO_AUTH_TOKEN \
+  -from $TWILIO_FROM_PHONE \
+  -to $TWILIO_TO_PHONE \
+  -sentryDSN= $SENTRY_DSN
