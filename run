@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./uscis \
+uscis \
   -caseNumber $CASE_NUMBER \
   -accountSID $TWILIO_ACCOUNT_SID \
   -authToken $TWILIO_AUTH_TOKEN \
